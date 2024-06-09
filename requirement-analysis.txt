@@ -96,3 +96,14 @@ const movieSchema = new Schema<TMovie, TMovieModel, TMovieMethods>({
 
 1 Review -> Movie Total Rating
 
+
+
+//User Model : 
+
+name : string;
+role : string; //super-admin, admin, user //default user
+email : string;
+password : string; (hashing)
+status : boolean; //blocked , active
+
+
